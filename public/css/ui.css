@@ -16,7 +16,7 @@ a:hover {
   text-align: center;
   display: block; }
   .img-wrap img {
-    max-width: 100%; }
+    max-width: 60%; }
 
 .icon-wrap {
   text-align: center;
@@ -746,7 +746,7 @@ a[class*='card'] {
     color: #ff6a00; }
 
 /* BASE STYLE FOR PRODUCT ITEM */
-[class*='card-product'] a.title {
+/* [class*='card-product'] a.title {
   color: #212529;
   display: block; }
   [class*='card-product'] a.title:hover {
@@ -766,7 +766,7 @@ a[class*='card'] {
     width: auto;
     display: inline-block;
     -o-object-fit: cover;
-       object-fit: cover; }
+       object-fit: cover; } */
 
 /* GRID STYLE PRODUCT ITEM */
 .card-product-grid {
@@ -1160,7 +1160,7 @@ body {
 
 .slider-home-banner .carousel-item img {
   width: 100%;
-  height: 375px;
+  /* height: 375px; */
   -o-object-fit: cover;
      object-fit: cover; }
 
@@ -1227,7 +1227,7 @@ body {
     text-align: center;
     display: block; }
   .gallery-wrap .img-big-wrap img {
-    height: 480px;
+    /* height: 480px; */
     width: auto;
     display: inline-block;
     cursor: -webkit-zoom-in;

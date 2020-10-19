@@ -15,7 +15,7 @@
             <div class="card">
                <article class="gallery-wrap">
                   <div class="img-big-wrap">
-                     <div> <a href="#"><img src="{{asset('images/demo/' . $product->pimage)}}"></a></div>
+                     <div> <a href="#"><img class="img-fluid" src="{{asset('images/demo/' . $product->pimage)}}"></a></div>
                   </div>
                </article>
             </div>

@@ -6,7 +6,8 @@
          <main class="card">
             <div class="card-body">
                <div class="row">
-                  <div class="col-12">
+                  <div class="col-12 d-sm-none d-md-block
+                  ">
                      <div id="carousel1_indicator" class="slider-home-banner carousel slide container-fluid" data-ride="carousel">
                         <ol class="carousel-indicators">
                            <li data-target="#carousel1_indicator" data-slide-to="0" class="active"></li>
@@ -54,8 +55,9 @@
             </aside>
             @foreach ($recommendations as $recommendation)
             <div class="col-xl-3 col-lg-3 col-md-4 col-6">
-               <div href="#" class=" rec card card-sm card-product-grid">
-                  <a href="{{ url('shop/' . $recommendation->url . '/' .  $recommendation->purl) }}" class="img-wrap"> <img src="{{ asset('images/demo/' . $recommendation->pimage) }}"> </a>
+               <div href="#" class="rec card card-sm card-product-grid">
+                  <a href="{{ url('shop/' . $recommendation->url . '/' .  $recommendation->purl) }}" class="img-wrap">
+                     <img class="mt-4" src="{{ asset('images/demo/' . $recommendation->pimage) }}"> </a>
                   <figcaption class="info-wrap">
                      <a href="{{ url('shop/' . $recommendation->url . '/' .  $recommendation->purl) }}" class="title">{{$recommendation->ptitle}}</a>
                      <div class="price mt-1">${{$recommendation->price}}</div>
